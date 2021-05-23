@@ -1,0 +1,691 @@
+C:\Users\argen\PycharmProjects\starsdist\venv\Scripts\python.exe C:/Users/argen/PycharmProjects/starsdist/proba2.py
+40002
+position:  (95, 23)
+position:  (88, 174)
+distance:  151.2
+b'nope'
+40002
+position:  (26, 71)
+position:  (157, 174)
+distance:  166.6
+b'nope'
+40002
+position:  (8, 113)
+position:  (31, 51)
+distance:  66.1
+b'nope'
+40002
+position:  (55, 134)
+position:  (86, 145)
+distance:  32.9
+b'nope'
+40002
+position:  (147, 61)
+position:  (112, 185)
+distance:  128.8
+b'nope'
+40002
+position:  (155, 185)
+position:  (108, 99)
+distance:  98.0
+b'nope'
+40002
+position:  (12, 35)
+position:  (151, 18)
+distance:  140.0
+b'nope'
+40002
+position:  (47, 59)
+position:  (48, 91)
+distance:  32.0
+b'nope'
+40002
+position:  (21, 93)
+position:  (94, 102)
+distance:  73.6
+b'nope'
+40002
+position:  (57, 87)
+position:  (92, 64)
+distance:  41.9
+b'nope'
+40002
+position:  (48, 179)
+position:  (88, 144)
+distance:  53.2
+b'nope'
+40002
+position:  (88, 142)
+position:  (48, 170)
+distance:  48.8
+b'nope'
+40002
+position:  (40, 86)
+position:  (53, 167)
+distance:  82.0
+b'nope'
+40002
+position:  (167, 154)
+position:  (184, 27)
+distance:  128.1
+b'nope'
+40002
+position:  (172, 139)
+position:  (65, 71)
+distance:  126.8
+b'nope'
+40002
+position:  (93, 71)
+position:  (43, 108)
+distance:  62.2
+b'nope'
+40002
+position:  (168, 25)
+position:  (143, 169)
+distance:  146.2
+b'nope'
+40002
+position:  (109, 63)
+position:  (83, 15)
+distance:  54.6
+b'nope'
+40002
+position:  (93, 109)
+position:  (142, 86)
+distance:  54.1
+b'nope'
+40002
+position:  (102, 20)
+position:  (63, 170)
+distance:  155.0
+b'nope'
+40002
+position:  (171, 20)
+position:  (105, 49)
+distance:  72.1
+b'nope'
+40002
+position:  (48, 149)
+position:  (120, 11)
+distance:  155.7
+b'nope'
+40002
+position:  (162, 150)
+position:  (163, 61)
+distance:  89.0
+b'nope'
+40002
+position:  (22, 172)
+position:  (174, 158)
+distance:  152.6
+b'nope'
+40002
+position:  (115, 82)
+position:  (12, 144)
+distance:  120.2
+b'nope'
+40002
+position:  (95, 61)
+position:  (53, 180)
+distance:  126.2
+b'nope'
+40002
+position:  (55, 53)
+position:  (167, 96)
+distance:  120.0
+b'nope'
+40002
+position:  (132, 63)
+position:  (59, 41)
+distance:  76.2
+b'nope'
+40002
+position:  (20, 163)
+position:  (26, 185)
+distance:  22.8
+b'nope'
+40002
+position:  (127, 133)
+position:  (48, 49)
+distance:  115.3
+b'nope'
+40002
+position:  (10, 16)
+position:  (121, 63)
+distance:  120.5
+b'nope'
+40002
+position:  (141, 142)
+position:  (169, 154)
+distance:  30.5
+b'nope'
+40002
+position:  (26, 84)
+position:  (66, 60)
+distance:  46.6
+b'nope'
+40002
+position:  (75, 67)
+position:  (176, 52)
+distance:  102.1
+b'nope'
+40002
+position:  (86, 92)
+position:  (26, 73)
+distance:  62.9
+b'nope'
+40002
+position:  (96, 47)
+position:  (48, 148)
+distance:  111.8
+b'nope'
+40002
+position:  (148, 65)
+position:  (102, 145)
+distance:  92.3
+b'nope'
+40002
+position:  (30, 8)
+position:  (12, 11)
+distance:  18.2
+b'nope'
+40002
+position:  (176, 120)
+position:  (39, 29)
+distance:  164.5
+b'nope'
+40002
+position:  (21, 139)
+position:  (63, 163)
+distance:  48.4
+b'nope'
+40002
+position:  (42, 20)
+position:  (70, 94)
+distance:  79.1
+b'nope'
+40002
+position:  (180, 102)
+position:  (68, 38)
+distance:  129.0
+b'nope'
+40002
+position:  (79, 110)
+position:  (18, 184)
+distance:  95.9
+b'nope'
+40002
+position:  (102, 169)
+position:  (167, 50)
+distance:  135.6
+b'nope'
+40002
+position:  (116, 92)
+position:  (178, 53)
+distance:  73.2
+b'nope'
+40002
+position:  (104, 117)
+position:  (11, 78)
+distance:  100.8
+b'nope'
+40002
+position:  (11, 19)
+position:  (78, 12)
+distance:  67.4
+b'nope'
+40002
+position:  (179, 145)
+position:  (13, 128)
+distance:  166.9
+b'nope'
+40002
+position:  (175, 66)
+position:  (33, 118)
+distance:  151.2
+b'nope'
+40002
+position:  (132, 69)
+position:  (149, 88)
+distance:  25.5
+b'nope'
+40002
+position:  (53, 87)
+position:  (84, 145)
+distance:  65.8
+b'nope'
+40002
+position:  (15, 31)
+position:  (111, 29)
+distance:  96.0
+b'nope'
+40002
+position:  (143, 80)
+position:  (173, 147)
+distance:  73.4
+b'nope'
+40002
+position:  (55, 106)
+position:  (102, 118)
+distance:  48.5
+b'nope'
+40002
+position:  (168, 138)
+position:  (146, 35)
+distance:  105.3
+b'nope'
+40002
+position:  (67, 156)
+position:  (23, 71)
+distance:  95.7
+b'nope'
+40002
+position:  (54, 53)
+position:  (168, 133)
+distance:  139.3
+b'nope'
+40002
+position:  (93, 149)
+position:  (80, 76)
+distance:  74.1
+b'nope'
+40002
+position:  (157, 75)
+position:  (41, 37)
+distance:  122.1
+b'nope'
+40002
+position:  (104, 33)
+position:  (66, 72)
+distance:  54.5
+b'nope'
+40002
+position:  (101, 20)
+position:  (182, 60)
+distance:  90.3
+b'nope'
+40002
+position:  (160, 139)
+position:  (102, 72)
+distance:  88.6
+b'nope'
+40002
+position:  (100, 185)
+position:  (13, 162)
+distance:  90.0
+b'nope'
+40002
+position:  (170, 62)
+position:  (166, 25)
+distance:  37.2
+b'nope'
+40002
+position:  (144, 56)
+position:  (90, 143)
+distance:  102.4
+b'nope'
+40002
+position:  (126, 168)
+position:  (132, 44)
+distance:  124.1
+b'nope'
+40002
+position:  (98, 41)
+position:  (166, 27)
+distance:  69.4
+b'nope'
+40002
+position:  (141, 22)
+position:  (115, 72)
+distance:  56.4
+b'nope'
+40002
+position:  (24, 70)
+position:  (103, 137)
+distance:  103.6
+b'nope'
+40002
+position:  (160, 68)
+position:  (12, 161)
+distance:  174.8
+b'nope'
+40002
+position:  (158, 138)
+position:  (107, 96)
+distance:  66.1
+b'nope'
+40002
+position:  (157, 108)
+position:  (143, 159)
+distance:  52.9
+b'nope'
+40002
+position:  (160, 114)
+position:  (121, 81)
+distance:  51.1
+b'nope'
+40002
+position:  (170, 75)
+position:  (102, 83)
+distance:  68.5
+b'nope'
+40002
+position:  (161, 16)
+position:  (16, 175)
+distance:  215.2
+b'nope'
+40002
+position:  (47, 121)
+position:  (183, 110)
+distance:  136.4
+b'nope'
+40002
+position:  (52, 130)
+position:  (60, 25)
+distance:  105.3
+b'nope'
+40002
+position:  (140, 12)
+position:  (172, 14)
+distance:  32.1
+b'nope'
+40002
+position:  (87, 171)
+position:  (39, 19)
+distance:  159.4
+b'nope'
+40002
+position:  (161, 119)
+position:  (145, 137)
+distance:  24.1
+b'nope'
+40002
+position:  (164, 156)
+position:  (28, 83)
+distance:  154.4
+b'nope'
+40002
+position:  (181, 35)
+position:  (184, 77)
+distance:  42.1
+b'nope'
+40002
+position:  (174, 113)
+position:  (173, 69)
+distance:  44.0
+b'nope'
+40002
+position:  (66, 108)
+position:  (141, 144)
+distance:  83.2
+b'nope'
+40002
+position:  (107, 126)
+position:  (23, 87)
+distance:  92.6
+b'nope'
+40002
+position:  (69, 146)
+position:  (143, 83)
+distance:  97.2
+b'nope'
+40002
+position:  (164, 88)
+position:  (103, 76)
+distance:  62.2
+b'nope'
+40002
+position:  (18, 125)
+position:  (56, 179)
+distance:  66.0
+b'nope'
+40002
+position:  (179, 129)
+position:  (41, 157)
+distance:  140.8
+b'nope'
+40002
+position:  (154, 117)
+position:  (19, 28)
+distance:  161.7
+b'nope'
+40002
+position:  (156, 163)
+position:  (29, 82)
+distance:  150.6
+b'nope'
+40002
+position:  (24, 66)
+position:  (14, 128)
+distance:  62.8
+b'nope'
+40002
+position:  (129, 54)
+position:  (137, 171)
+distance:  117.3
+b'nope'
+40002
+position:  (135, 31)
+position:  (76, 65)
+distance:  68.1
+b'nope'
+40002
+position:  (79, 41)
+position:  (153, 164)
+distance:  143.5
+b'nope'
+40002
+position:  (172, 89)
+position:  (72, 102)
+distance:  100.8
+b'nope'
+40002
+position:  (116, 154)
+position:  (153, 90)
+distance:  73.9
+b'nope'
+40002
+position:  (12, 67)
+position:  (98, 49)
+distance:  87.9
+b'nope'
+40002
+position:  (87, 113)
+position:  (82, 123)
+distance:  11.2
+b'nope'
+40002
+position:  (139, 67)
+position:  (21, 21)
+distance:  126.6
+b'nope'
+40002
+position:  (141, 25)
+position:  (96, 105)
+distance:  91.8
+b'nope'
+40002
+position:  (91, 77)
+position:  (56, 15)
+distance:  71.2
+b'nope'
+40002
+position:  (54, 128)
+position:  (13, 89)
+distance:  56.6
+b'nope'
+40002
+position:  (39, 21)
+position:  (101, 160)
+distance:  152.2
+b'nope'
+40002
+position:  (113, 71)
+position:  (11, 49)
+distance:  104.3
+b'nope'
+40002
+position:  (182, 48)
+position:  (51, 109)
+distance:  144.5
+b'nope'
+40002
+position:  (8, 19)
+position:  (164, 25)
+distance:  156.1
+b'nope'
+40002
+position:  (38, 131)
+position:  (47, 11)
+distance:  120.3
+b'nope'
+40002
+position:  (123, 101)
+position:  (148, 169)
+distance:  72.4
+b'nope'
+40002
+position:  (128, 50)
+position:  (26, 46)
+distance:  102.1
+b'nope'
+40002
+position:  (28, 104)
+position:  (67, 141)
+distance:  53.8
+b'nope'
+40002
+position:  (152, 126)
+position:  (92, 65)
+distance:  85.6
+b'nope'
+40002
+position:  (91, 28)
+position:  (78, 65)
+distance:  39.2
+b'nope'
+40002
+position:  (77, 177)
+position:  (51, 135)
+distance:  49.4
+b'nope'
+40002
+position:  (24, 27)
+position:  (124, 139)
+distance:  150.1
+b'nope'
+40002
+position:  (120, 163)
+position:  (0, 0)
+distance:  202.4
+b'nope'
+40002
+position:  (69, 106)
+position:  (107, 10)
+distance:  103.2
+b'nope'
+40002
+position:  (10, 160)
+position:  (66, 122)
+distance:  67.7
+b'nope'
+40002
+position:  (87, 180)
+position:  (118, 85)
+distance:  99.9
+b'nope'
+40002
+position:  (69, 115)
+position:  (116, 145)
+distance:  55.8
+b'nope'
+40002
+position:  (86, 158)
+position:  (183, 182)
+distance:  99.9
+b'nope'
+40002
+position:  (162, 134)
+position:  (70, 50)
+distance:  124.6
+b'nope'
+40002
+position:  (143, 29)
+position:  (10, 90)
+distance:  146.3
+b'nope'
+40002
+position:  (58, 79)
+position:  (84, 66)
+distance:  29.1
+b'nope'
+40002
+position:  (64, 167)
+position:  (18, 43)
+distance:  132.3
+b'nope'
+40002
+position:  (135, 144)
+position:  (162, 167)
+distance:  35.5
+b'nope'
+40002
+position:  (132, 158)
+position:  (156, 73)
+distance:  88.3
+b'nope'
+40002
+position:  (115, 51)
+position:  (139, 56)
+distance:  24.5
+b'nope'
+40002
+position:  (157, 40)
+position:  (133, 50)
+distance:  26.0
+b'nope'
+40002
+position:  (20, 73)
+position:  (146, 58)
+distance:  126.9
+b'nope'
+40002
+position:  (92, 92)
+position:  (133, 33)
+distance:  71.8
+b'nope'
+40002
+position:  (184, 86)
+position:  (170, 84)
+distance:  14.1
+b'nope'
+40002
+position:  (180, 23)
+position:  (108, 173)
+distance:  166.4
+b'nope'
+40002
+position:  (114, 112)
+position:  (104, 112)
+distance:  10.0
+b'nope'
+40002
+position:  (141, 59)
+position:  (88, 19)
+distance:  66.4
+b'nope'
+40002
+position:  (68, 127)
+position:  (85, 46)
+distance:  82.8
+b'nope'
+40002
+position:  (9, 142)
+position:  (86, 97)
+distance:  89.2
+b'nope'
+40002
+position:  (115, 169)
+position:  (127, 71)
+distance:  98.7
+b'nope'
