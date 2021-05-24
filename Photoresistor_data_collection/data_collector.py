@@ -1,35 +1,74 @@
+import os
 import time
+from pymongo.common import NONSPEC_OPTIONS_VALIDATOR_MAP
 import serial
 import datetime
-#import pymongo
+import tempfile
+from dateutil import parser
 from pymongo import MongoClient, errors
-#pip install pyserial
+
 from serial.tools import list_ports
-# Mongo
-##from pymongo import MongoClient
-##client = mongoClient("roboforge.ru", username="admin", password="pinboard123", authSource="admin")
-##print(client.list_database_names())
-#key = '1123581321'
+
 key = b'f'
 request = b'r'
+pinboard = None
 
-ports = list_ports.comports()
+def get_pinboard():
+    ports = list_ports.comports()
+    print(len(ports), ' ports found')
+    for port in ports:
+        pinboard = serial.Serial(port.device, 115200, timeout=1)
+        pinboard.write(key)
+        try:
+            line = pinboard.readline().decode().strip()
+            if (line == "etoprostojest"):
+                print("good! Your port is ", port.device)
+                return pinboard
+        except ValueError:
+            pass
+    return None
 
-for port in ports:
-    pinboard = serial.Serial(port.device, 115200, timeout=1)
-    pinboard.write(key)
-    port_answer = pinboard.readline()
-    print(port_answer)
-    if (port_answer == b"etoprostojest\r\n"):
-        print("good! Your port is ", port.device)
-        break
-    #time.sleep(5)
-    #print(port.device)
-print(len(ports), ' ports found')
 
-##photo_data_list = []
-##photo_data_list.append(pinboard.readline())
-## while через каждую минуту
+def collect_data():
+    global pinboard
+    try:
+        pinboard.write(request)
+        time.sleep(0.1)
+        analog_photresistor_answer = int(pinboard.readline().decode().strip())
+        return analog_photresistor_answer
+    except ValueError:
+        return None
+    except serial.SerialException:
+        pinboard = None
+        return None
+
+
+def send_data(dt, value):
+    storage_file = os.path.join(tempfile.gettempdir(), "serebrennikov")
+    os.makedirs(storage_file, exist_ok=True)
+    storage_file = storage_file + "\\file.txt"
+
+    with open(storage_file, 'a') as storage:
+        storage.write(str(dt) + " " + str(value) + '\n')
+        storage.close()
+
+    measures = []
+    with open(storage_file, 'r') as storage:
+        lines = storage.readlines()
+        for line in lines:
+            *storage_dt, storage_value = line.split(" ")
+            storage_dt = parser.parse(" ".join(storage_dt))
+            storage_value = int(storage_value)
+            measures.append({"datetime": storage_dt, "value": storage_value})
+        storage.close()
+
+    try:
+        coll.insert_many(measures)
+        with open(storage_file, 'w') as storage:
+            storage.writelines("")
+            storage.close()
+    except:
+        pass
 
 client = MongoClient("roboforge.ru", username="admin",
                      password="pinboard123", authSource="admin",
@@ -38,40 +77,17 @@ client = MongoClient("roboforge.ru", username="admin",
 
 db = client["serebrennikov"]
 coll = db["photoresistor"]
-#coll.insert_one({"datetime": dt, "value": value})
-print(client.list_database_names())
-
+pinboard = get_pinboard()
 while True:
-    dt = datetime.datetime.now()
-    if datetime.datetime.now().second == 0:
-        pinboard.write(request)
-        analog_photresistor_answer = pinboard.readline()
-        #print("Photoresistor value: ", analog_photresistor_answer)
-        time.sleep(1)
-        try:
-            value = int(analog_photresistor_answer.decode().strip())
-        except ValueError:
-            continue
-        coll.insert_one({"datetime": dt, "value": value})
-        print("Photoresistor value: ", value)
-        #except:
-#decode -> strip -> int
-#try except
-#col.drop
-"""
-while True:
-    line = pinboard.readline()
-
-    if datetime.datetime.now().second == 0:
-        #line = pinboard.readline()
-        #while line:
-        #    photo_data_list.append(line)
-        #    line = pinboard.readline()
-
-        #print(photo_data_list)
-        #analog_photresistor_answer = photo_data_list[-1]
-        analog_photresistor_answer = line
-        print("Photoresistor value: ", analog_photresistor_answer)
-        time.sleep(1)
-        #photo_data_list = []
-"""
+    if pinboard:
+        dt = datetime.datetime.now()
+        if dt.second == 0:
+            value = collect_data()
+            if value:
+                send_data(dt, value)
+                print("Photoresistor value: ", value)
+            time.sleep(1)
+    else:
+        print("Waiting pinboard...")
+        pinboard = get_pinboard()
+        time.sleep(5)
